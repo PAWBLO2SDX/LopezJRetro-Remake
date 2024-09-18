@@ -23,6 +23,14 @@ public class testPM : MonoBehaviour
         }
 
         {
+            // Update is called once per frame
+          
+            void Update()
+
+            {
+
+
+            }
         }
     }
 }
