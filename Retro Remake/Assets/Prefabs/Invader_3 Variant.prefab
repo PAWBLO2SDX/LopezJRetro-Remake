@@ -50,8 +50,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5020267765253724829, guid: 9a66191496b54f740bc872d789381f43, type: 3}
       propertyPath: animationSprites.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5020267765253724829, guid: 9a66191496b54f740bc872d789381f43, type: 3}
+      propertyPath: animationSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c2a15b62675383a4991517b459dc154b, type: 3}
+    - target: {fileID: 5020267765253724829, guid: 9a66191496b54f740bc872d789381f43, type: 3}
+      propertyPath: animationSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a60864c42ad3724e9bf441ec5f6f579, type: 3}
     - target: {fileID: 5461316312630575591, guid: 9a66191496b54f740bc872d789381f43, type: 3}
       propertyPath: m_RootOrder
       value: 9

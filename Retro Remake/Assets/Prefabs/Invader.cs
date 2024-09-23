@@ -31,7 +31,7 @@ public class Invader : MonoBehaviour
 
     private void InvokeRepeating(string v, float animationTime)
     {
-        throw new NotImplementedException();
+     
     }
 
     private void AnimateSprite()

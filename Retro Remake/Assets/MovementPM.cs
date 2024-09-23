@@ -53,5 +53,7 @@ public class MovementPM : MonoBehaviour
             // Get the GameObject Rigidbody2D component and set its velocity to be the up at given jump height
             _rb.velocity = Vector2.up * jumpHeight;
         }
+
     }
 }
+
