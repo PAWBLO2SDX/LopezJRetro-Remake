@@ -1,9 +1,8 @@
 
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class projectile : MonoBehaviour
 {
-
     public Vector3 direction;
 
     public float speed;
@@ -12,18 +11,5 @@ public class Projectile : MonoBehaviour
     {
         this.transform.position += this.direction * this.speed * Time.deltaTime;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
