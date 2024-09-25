@@ -25,16 +25,16 @@ public class player : MonoBehaviour
         }
     }
 
+
     private void Shoot()
     {
 
-        {
-           
-        }
     }
 
-    private void NewMethod()
-    {
-        Instantiate(this.laserPrefab, this.transform.position, Quaternion.identity);
-    }
+   
 }
+
+   
+    
+       
+    

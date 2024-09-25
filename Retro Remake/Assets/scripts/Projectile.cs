@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -8,22 +7,8 @@ public class Projectile : MonoBehaviour
 
     public float speed;
 
-    public void Update()
+    private void Update()
     {
         this.transform.position += this.direction * this.speed * Time.deltaTime;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
