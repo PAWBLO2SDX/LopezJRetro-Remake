@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
   
     public float speed = 1.0f;
 
+   
 
     private void Update()
     {
@@ -27,5 +28,16 @@ public class Player : MonoBehaviour
     private void Shoot()
     {
         Instantiate(this.laserPrefab, this.transform.position, Quaternion.identity);
+     
+        ScoreManager.instance.AddPoint();
     }
+    private void Awake()
+    {
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
+
 }

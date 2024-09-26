@@ -31,6 +31,6 @@ public class Invader : MonoBehaviour
             _animationFrame = 0;
         }
 
-            _spriteRenderer.sprite = animationSprites[_animationFrame];
+            _spriteRenderer.sprite = this.animationSprites[_animationFrame];
     }
 }

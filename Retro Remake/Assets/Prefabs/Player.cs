@@ -3,7 +3,7 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public Projectile laserprefab;
-
+    Projectile projectile;
     public float speed = 5.0f;
 
     private bool _laserActive;
@@ -28,6 +28,14 @@ public class player : MonoBehaviour
 
     private void Shoot()
     {
+        if (!_laserActive)
+        {
+            Instantiate(this.laserprefab, this.transform.position, Quaternion.identity);
+
+            _laserActive = true;
+        }
+
+
 
     }
 
