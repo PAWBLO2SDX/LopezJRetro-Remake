@@ -65,23 +65,23 @@ MonoBehaviour:
     the 2D Renderer in Universal RP.
   preview: {fileID: -3604256930052969394}
   dependencies:
-  - dependency: {fileID: 2800000, guid: a8b7e6b41bb584448863cd0f895169ce, type: 3}
-    instantiationMode: 0
   - dependency: {fileID: 5912132731208234496, guid: 4533d66516974184a953efc9acfb3b37, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: ee148e281f3c41c5b4ff5f8a5afe5a6c, type: 3}
-    instantiationMode: 0
-  - dependency: {fileID: 7400000, guid: 73056a968e1be644cb1cf9d66fbd0b48, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 2fd6421f253b4ef1a19526541f9ffc0c, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-    instantiationMode: 1
+  - dependency: {fileID: 7400000, guid: f546b5631f290444da4cb6e66351bf4a, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 9100000, guid: bf9321f27289e024cad7439cf350cf33, type: 2}
+    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 9100000, guid: 942eeae6d06310043a66e819d2f1d35d, type: 2}
+  - dependency: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 2bb21d0deec7353489e723a3cc3020a4, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: a879d074676d3c8419da82b0018a6573, type: 3}
     instantiationMode: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     instantiationMode: 1
-  - dependency: {fileID: 2800000, guid: 2bb21d0deec7353489e723a3cc3020a4, type: 3}
+  - dependency: {fileID: 2800000, guid: a8b7e6b41bb584448863cd0f895169ce, type: 3}
     instantiationMode: 0
   templatePipeline: {fileID: 0}
   badge: {fileID: 0}

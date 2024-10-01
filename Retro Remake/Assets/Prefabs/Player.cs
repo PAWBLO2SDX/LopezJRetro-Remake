@@ -30,13 +30,19 @@ public class player : MonoBehaviour
     {
         if (!_laserActive)
         {
-            Instantiate(this.laserprefab, this.transform.position, Quaternion.identity);
-
+           Projectile projextile = Instantiate(this.laserprefab, this.transform.position, Quaternion.identity);
+            projectile.destroyed += LaserDestroyed;
             _laserActive = true;
+
+
+            
         }
 
+    }
 
-
+    private void LaserDestroyed()
+    {
+        _laserActive = false;
     }
 
    

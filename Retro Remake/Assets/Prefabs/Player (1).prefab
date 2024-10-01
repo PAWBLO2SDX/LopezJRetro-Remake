@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6625062509755059288}
   - component: {fileID: 6625062509755059291}
   - component: {fileID: 6625062509755059289}
-  - component: {fileID: 6625062509755059294}
-  - component: {fileID: -6931626248460325924}
+  - component: {fileID: -76761398965828648}
+  - component: {fileID: -9163584508677541118}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Untagged
@@ -135,7 +135,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &6625062509755059294
+--- !u!114 &-76761398965828648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6625062509755059285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47e508bd8dcd15448f682d4f8afb03d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserprefab: {fileID: 4214961938244571446, guid: 4533d66516974184a953efc9acfb3b37, type: 3}
+  speed: 5
+--- !u!114 &-9163584508677541118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,19 +166,5 @@ MonoBehaviour:
   up: 119
   down: 115
   jump: 119
-  speed: 30
-  jumpHeight: 15
---- !u!114 &-6931626248460325924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6625062509755059285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f1cb9f4161667a45842ba39fed9cb0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: 0, y: 1, z: 0}
-  speed: 5
+  speed: 10
+  jumpHeight: 12.25
